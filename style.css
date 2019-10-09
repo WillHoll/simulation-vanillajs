@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    box-sizing: border-box;
+    height: 15vh;
+    background-color: #424249;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.header-text {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: 'Righteous', cursive;
+}
+.total {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-left {
+    width: 47.5%;
+    display: flex;
+
+}
+.main-right {
+    width: 47.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+.expenses-container {
+    width: 90%;
+    background-color: #EFE8E1;
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+.add-bill-container {
+    width: 90%;
+    background-color: #54D2E5;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+h1 {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
